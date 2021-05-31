@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container"> 
+        <h1 class="title">Welcome to The Title</h1>
+        <div class="image-form-container">
+            <div class="image-container">
+                <div class="image-container__image"></div>
+            </div>
+            <div class="auth-form-container">
+                <h2 class="auth-form-container__legend">Registration</h2>
+                <form id="auth-form" class="auth-form" action="" method="post">
+                    <div class="auth-form-input-container">
+                        <label class="auth-form__label">email</label>
+                        <input id = "auth-form-email" class="auth-form__input"  placeholder="email" required/>
+                    </div>
+                    <div class="auth-form-input-container">
+                        <label class="auth-form__label">username</label>
+                        <input id = "auth-form-name" class="auth-form__input" type="text" placeholder="username" required/>
+                    </div>
+                    <div class="auth-form-input-container">
+                        <label class="auth-form__label">password</label>
+                        <input id = "auth-form-password" class="auth-form__input" type="password" placeholder="password" required/>
+                    </div>
+                    <input id="auth-form-submit" class="auth-form__button" type="submit" value="Register"/>
+                </form>
+                <a class="auth-link" href="/login-page.html">already have an account?</a>
+            </div>
+        </div>
+    </div>
+    <script src="validators.js"></script>
+</body>
+</html>
